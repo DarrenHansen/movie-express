@@ -1,7 +1,6 @@
 {
   "name": "movie-express",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon index.js"
@@ -16,5 +15,14 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrenHansen/movie-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarrenHansen/movie-express/issues"
+  },
+  "homepage": "https://github.com/DarrenHansen/movie-express#readme",
+  "description": ""
 }
