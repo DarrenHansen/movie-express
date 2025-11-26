@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "70e50727-f567-41ad-b955-c3c003da9dff",
+		"name": "Darren",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49280617",
+		"_collection_link": "https://darrenhansen-3726276.postman.co/workspace/Hansen's-Workspace~0ae9e341-e043-4d48-8d2d-9ec0894766ae/collection/49280617-70e50727-f567-41ad-b955-c3c003da9dff?action=share&source=collection_link&creator=49280617"
+	},
+	"item": [
+		{
+			"name": "Sign Up",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "applicaton/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Darren\",\r\n  \"email\": \"darren@gmail.com\",\r\n  \"password\": \"1234567\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sign In",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Darren\",\r\n  \"email\": \"darren@gmail.com\",\r\n  \"password\": \"1234567\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
